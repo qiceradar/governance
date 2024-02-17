@@ -1,0 +1,13 @@
+Title (<10 words):
+
+TQIceRadar: A QGIS plugin for airborne ice penetrating radar data
+
+Abstract (<40 words):
+
+This talk presents the development a data index and associated QGIS plugin that enable scientists to discover where ice penetrating radar data exists, download the radargrams (for publicly-released lines), and visualize these data in context with other geological datasets. 
+
+Description (<800 words):
+
+We present an effort recently funded by the NSF that seeks to make ice penetrating radar data more FAIR (Findable, Accessible, Interoperable, Reusable). The US alone has spent many tens of millions of dollars on direct grants to enable the acquisition and analysis of radar data, and even more on the associated infrastructure and support costs. Unfortunately, much of these data is not publicly released, and even the data that has been released is not easily accessible. There is significant technical work involved in figuring out how to locate, download and view the data. This project will help to address findability, by indexing data that is distributed across multiple international data centers, as well as providing interoperability between datasets from other disciplines and radar data in multiple formats via a QGIS plugin.
+
+Quantarctica and QGreenland have rapidly become indispensable data indices for the polar research community, making diverse data sets readily available to researchers using QGIS. However, ice penetrating radar is a major category of data that is not currently supported – it is possible to see the locations of existing survey lines, and the ice thickness maps that have been interpreted from their data, but it is not readily possible to see the radargrams themselves in context with all of the other information. This capability is important because there is far more visual information contained in a radargram than simply its interpreted basal elevation or ice thickness. We are developing software in the form of QGIS plugins that will enable researchers to discover where available data exists, download data from disparate data centers, and view radargram images and interpreted surface and basal horizons in context with the existing map-view datasets in Quantarctica and QGreenland.
